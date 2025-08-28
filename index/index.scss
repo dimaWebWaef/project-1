@@ -1,0 +1,186 @@
+@import "../font";
+@import "../size";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1440px;
+  width: 100%;
+  .footer{
+    display: flex;
+    flex-direction: column;
+    .cactactes{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 54px;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: black solid 1px;
+      .tel_and_email{
+        @include robot-400;
+        font-size:$si-smol ;
+        margin-left: 3%;
+        a:nth-child(1){
+          border-right: black 1px solid ;
+          margin-right: 10px;
+          padding-right: 10px;
+        }
+      }
+    }
+    .menu_all{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 72px;
+      .logo{
+        display: flex;
+        img{
+          width: 26px;
+          height: 26px;
+        }
+        span{
+          font-size: $si-3;
+          @include robot-700;
+        }
+      }
+      .menu{
+        display: flex;
+        flex-direction: row;
+        ul{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-right: 20px;
+          li{
+            @include robot-400;
+            font-size: $si-2;
+            padding-left: 20px;
+            :hover{
+              border-bottom: black 2px solid ;
+            }
+          }
+        }
+      }
+      .search{
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        border: black solid 1px;
+        border-radius: 5px;
+
+        align-self: center;
+        .searh_txt{
+          text-align: center;
+          border: none;
+          font-size: $si-smol;
+          @include robot-400;
+          outline: none;
+        }
+        .searh_btn{
+          border: none;
+          background-color: white;
+          padding-right: 20px;
+
+        }
+      }
+      .book{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 40px;
+        width: 194px;
+        font-size: $si-2;
+        @include robot-400;
+        border-radius: 5px;
+        margin:0 20px 0 20px;
+        a{
+          color: white;
+        }
+      }
+    }
+  }
+  .blok-1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    justify-content: center;
+    background: url("../img/body.jpg") ;
+    background-size: cover;
+    h1{
+      @include robot-700;
+      font-size: $si-5;
+      max-width: 560px;
+      width: 100%;
+      margin: 0 0 20px 50px;
+    }
+    p{
+      max-width: 560px;
+      width: 100%;
+      @include robot-400;
+      font-size: $si-2;
+      margin: 0 0 20px 50px;
+    }
+    .button_all{
+      @include robot-400;
+      font-size: $si-1;
+      display: flex;
+      flex-direction: row;
+      margin: 0 0 20px 50px;
+      .button_1{
+        width: 202px;
+        height: 48px;
+        text-align: center;
+        align-content: center;
+        border-radius: 5px;
+        &:hover{
+          background: white;
+        }
+        a{
+          &:hover{
+            color: black;
+          }
+          color: white;
+        }
+      }
+      .button_2{
+        width: 202px;
+        height: 48px;
+        text-align: center;
+        align-content: center;
+        background:transparent ;
+        border-radius: 5px;
+        &:hover{
+          background: white;
+        }
+        a{
+          &:hover{
+            color: black;
+          }
+          color: white;
+        }
+      }
+    }
+  }
+}

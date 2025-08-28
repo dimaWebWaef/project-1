@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1440px;
+  width: 100%;
+}
+.container .footer {
+  display: flex;
+  flex-direction: column;
+}
+.container .footer .cactactes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 54px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: black solid 1px;
+}
+.container .footer .cactactes .tel_and_email {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 3%;
+}
+.container .footer .cactactes .tel_and_email a:nth-child(1) {
+  border-right: black 1px solid;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.container .footer .menu_all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+.container .footer .menu_all .logo {
+  display: flex;
+}
+.container .footer .menu_all .logo img {
+  width: 26px;
+  height: 26px;
+}
+.container .footer .menu_all .logo span {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.container .footer .menu_all .menu {
+  display: flex;
+  flex-direction: row;
+}
+.container .footer .menu_all .menu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+.container .footer .menu_all .menu ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.container .footer .menu_all .menu ul li :hover {
+  border-bottom: black 2px solid;
+}
+.container .footer .menu_all .search {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  border: black solid 1px;
+  border-radius: 5px;
+  align-self: center;
+}
+.container .footer .menu_all .search .searh_txt {
+  text-align: center;
+  border: none;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  outline: none;
+}
+.container .footer .menu_all .search .searh_btn {
+  border: none;
+  background-color: white;
+  padding-right: 20px;
+}
+.container .footer .menu_all .book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 40px;
+  width: 194px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border-radius: 5px;
+  margin: 0 20px 0 20px;
+}
+.container .footer .menu_all .book a {
+  color: white;
+}
+.container .blok-1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  width: 100%;
+  justify-content: center;
+  background: url("../img/body.jpg");
+  background-size: cover;
+}
+.container .blok-1 h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  max-width: 560px;
+  width: 100%;
+  margin: 0 0 20px 50px;
+}
+.container .blok-1 p {
+  max-width: 560px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 0 20px 50px;
+}
+.container .blok-1 .button_all {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px 50px;
+}
+.container .blok-1 .button_all .button_1 {
+  width: 202px;
+  height: 48px;
+  text-align: center;
+  align-content: center;
+  border-radius: 5px;
+}
+.container .blok-1 .button_all .button_1:hover {
+  background: white;
+}
+.container .blok-1 .button_all .button_1 a {
+  color: white;
+}
+.container .blok-1 .button_all .button_1 a:hover {
+  color: black;
+}
+.container .blok-1 .button_all .button_2 {
+  width: 202px;
+  height: 48px;
+  text-align: center;
+  align-content: center;
+  background: transparent;
+  border-radius: 5px;
+}
+.container .blok-1 .button_all .button_2:hover {
+  background: white;
+}
+.container .blok-1 .button_all .button_2 a {
+  color: white;
+}
+.container .blok-1 .button_all .button_2 a:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=index.css.map */
