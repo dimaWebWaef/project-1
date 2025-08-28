@@ -187,5 +187,48 @@ a {
 .container .blok-1 .button_all .button_2 a:hover {
   color: black;
 }
+.container .blok-2 {
+  display: flex;
+  justify-content: space-around;
+  height: 864px;
+}
+.container .blok-2 .abous_us {
+  align-self: center;
+  width: 616px;
+}
+.container .blok-2 .abous_us h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.container .blok-2 .abous_us p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.container .blok-2 .abous_us .button_book {
+  border: solid 1px;
+  width: 202px;
+  height: 48px;
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
+}
+.container .blok-2 .abous_us .button_book a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.container .blok-2 img {
+  width: 616px;
+  height: 640px;
+  align-self: center;
+}
+.container .blok-3 {
+  display: flex;
+  justify-content: space-around;
+}
 
 /*# sourceMappingURL=index.css.map */

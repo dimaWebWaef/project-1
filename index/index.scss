@@ -183,4 +183,44 @@ a{
       }
     }
   }
+  .blok-2{
+    display: flex;
+    justify-content: space-around;
+    height: 864px;
+    .abous_us{
+      align-self: center;
+      width: 616px;
+      h2{
+        margin-bottom: 20px;
+        font-size: $si-4;
+        @include robot-700;
+      }
+      p{
+        margin-bottom: 20px;
+        font-size: $si-1;
+        @include robot-400;
+      }
+      .button_book{
+        border: solid 1px ;
+        width: 202px;
+        height: 48px;
+        border-radius: 5px;
+        text-align: center;
+        align-content: center;
+        a{
+          font-size: $si-2;
+          @include robot-400;
+        }
+      }
+    }
+    img{
+      width: 616px;
+      height: 640px;
+      align-self: center;
+    }
+  }
+  .blok-3{
+    display: flex;
+    justify-content: space-around;
+  }
 }
