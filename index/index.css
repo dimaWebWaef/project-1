@@ -230,5 +230,203 @@ a {
   display: flex;
   justify-content: space-around;
 }
+.container .blok-3 .eros_all {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 616px;
+}
+.container .blok-3 .eros_all .eros {
+  flex-basis: 296px;
+}
+.container .blok-3 .eros_all .eros h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 15px 0 15px 0;
+}
+.container .blok-3 .eros_all .eros p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.container .blok-3 .eros_all .eros a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 35px;
+}
+.container .blok-3 .button_book {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: solid 1px;
+  width: 202px;
+  height: 48px;
+  text-align: center;
+  align-content: center;
+}
+.container .blok-3 .leam_more {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  width: 202px;
+  height: 48px;
+  text-align: center;
+  align-content: center;
+}
+.container .blok-3 .arom {
+  width: 616px;
+  height: 640px;
+}
+.container .blok-4 {
+  display: flex;
+  flex-direction: column;
+}
+.container .blok-4 h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 150px;
+}
+.container .blok-4 span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+}
+.container .blok-4 .bloks_treatment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .blok-4 .bloks_treatment .blok_treatment {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 400px;
+}
+.container .blok-4 .bloks_treatment .blok_treatment img {
+  width: 400px;
+  height: 304px;
+}
+.container .blok-4 .bloks_treatment .blok_treatment .name_treatment_and_price {
+  display: flex;
+  margin: 10px 0 10px 0;
+  justify-content: space-between;
+}
+.container .blok-4 .bloks_treatment .blok_treatment .name_treatment_and_price h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.container .blok-4 .bloks_treatment .blok_treatment .name_treatment_and_price .price span {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.container .blok-4 .bloks_treatment .blok_treatment p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.container .blok-4 .bloks_treatment .blok_treatment .book_now {
+  border: solid 1px;
+  width: 148px;
+  height: 40px;
+  text-align: center;
+  align-content: center;
+  border-radius: 5px;
+  margin: 10px 0 35px 0;
+}
+.container .blok-4 .all {
+  align-self: center;
+  width: 104px;
+  height: 48px;
+  border: solid 1px;
+  text-align: center;
+  align-content: center;
+  border-radius: 5px;
+  margin: 40px 0 60px 0;
+}
+.container .blok-5 {
+  display: flex;
+  justify-content: space-around;
+  height: 864px;
+}
+.container .blok-5 .face {
+  align-self: center;
+  width: 616px;
+}
+.container .blok-5 .face h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.container .blok-5 .face p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.container .blok-5 .face .button_book {
+  border: solid 1px;
+  width: 202px;
+  height: 48px;
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
+}
+.container .blok-5 .face .button_book a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.container .blok-5 img {
+  width: 616px;
+  height: 640px;
+  align-self: center;
+}
+.container .blok-6 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  height: 864px;
+}
+.container .blok-6 .make {
+  align-self: center;
+  width: 616px;
+}
+.container .blok-6 .make h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.container .blok-6 .make p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.container .blok-6 .make .button_book {
+  border: solid 1px;
+  width: 202px;
+  height: 48px;
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
+}
+.container .blok-6 .make .button_book a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.container .blok-6 img {
+  width: 616px;
+  height: 640px;
+  align-self: center;
+}
 
 /*# sourceMappingURL=index.css.map */

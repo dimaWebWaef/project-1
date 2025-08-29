@@ -222,5 +222,193 @@ a{
   .blok-3{
     display: flex;
     justify-content: space-around;
+    .eros_all{
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 616px;
+      .eros{
+        flex-basis: 296px;
+        h3{
+          @include robot-700;
+          font-size: $si-3;
+          margin: 15px 0 15px 0;
+        }
+        p{
+          @include robot-400;
+          font-size: $si-2;
+        }
+        a{
+          @include robot-400;
+          font-size: $si-2;
+          margin-top: 35px;
+        }
+      }
+    }
+    .button_book{
+      @include robot-400;
+      font-size: $si-2;
+      border: solid 1px ;
+      width: 202px;
+      height: 48px;
+      text-align: center;
+      align-content: center;
+    }
+    .leam_more{
+      @include robot-400;
+      font-size: $si-2;
+      width: 202px;
+      height: 48px;
+      text-align: center;
+      align-content: center;
+    }
+
+    .arom{
+      width: 616px;
+      height: 640px;
+    }
   }
-}
+  .blok-4{
+    display: flex;
+    flex-direction: column;
+    h2{
+      text-align: center;
+      @include robot-700;
+      font-size: calc($si-4 + 8px);
+      margin-top: 150px;
+    }
+    span{
+      @include robot-400;
+      font-size: $si-1;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .bloks_treatment{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .blok_treatment{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 400px;
+        img{
+          width: 400px;
+          height: 304px;
+        }
+        .name_treatment_and_price{
+          display: flex;
+          margin: 10px 0 10px 0;
+          justify-content: space-between;
+          h4{
+            @include robot-600;
+            font-size: $si-1;
+          }
+          .price{
+            span{
+              font-size: $si-smol;
+              @include robot-400;
+            }
+          }
+        }
+        p{
+          font-size: $si-1;
+          @include robot-400;
+        }
+        .book_now{
+          border: solid 1px ;
+          width: 148px;
+          height: 40px;
+          text-align: center;
+          align-content: center;
+          border-radius: 5px;
+          margin: 10px 0 35px 0;
+        }
+      }
+    }
+    .all{
+      align-self: center;
+      width: 104px;
+      height: 48px;
+      border: solid 1px ;
+      text-align: center;
+      align-content: center;
+      border-radius: 5px;
+      margin:  40px 0 60px 0 ;
+    }
+  }
+  .blok-5{
+    display: flex;
+    justify-content: space-around;
+    height: 864px;
+    .face{
+      align-self: center;
+      width: 616px;
+      h2{
+        margin-bottom: 20px;
+        font-size: $si-4;
+        @include robot-700;
+      }
+      p{
+        margin-bottom: 20px;
+        font-size: $si-1;
+        @include robot-400;
+      }
+      .button_book{
+        border: solid 1px ;
+        width: 202px;
+        height: 48px;
+        border-radius: 5px;
+        text-align: center;
+        align-content: center;
+        a{
+          font-size: $si-2;
+          @include robot-400;
+        }
+      }
+    }
+    img{
+      width: 616px;
+      height: 640px;
+      align-self: center;
+    }
+  }
+  .blok-6{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 864px;
+    .make{
+      align-self: center;
+      width: 616px;
+      h2{
+        margin-bottom: 20px;
+        font-size: $si-4;
+        @include robot-700;
+      }
+      p{
+        margin-bottom: 20px;
+        font-size: $si-1;
+        @include robot-400;
+      }
+      .button_book{
+        border: solid 1px ;
+        width: 202px;
+        height: 48px;
+        border-radius: 5px;
+        text-align: center;
+        align-content: center;
+        a{
+          font-size: $si-2;
+          @include robot-400;
+        }
+      }
+    }
+    img{
+      width: 616px;
+      height: 640px;
+      align-self: center;
+    }
+  }
+  }
+
+
+
